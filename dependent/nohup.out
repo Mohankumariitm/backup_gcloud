@@ -1,0 +1,7 @@
+5
+Traceback (most recent call last):
+  File "sportsbook_build4.py", line 234, in <module>
+    residue=get_previous_residue(race_list)
+  File "sportsbook_build4.py", line 170, in get_previous_residue
+    for t1 in tmp:
+UnboundLocalError: local variable 'tmp' referenced before assignment

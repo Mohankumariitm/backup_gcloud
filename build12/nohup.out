@@ -1,0 +1,1378 @@
+init Success None
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f87b5c348d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f87afa938d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f87afa93890>: Failed to establish a new cinit Success None
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff013224550>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff01320a910>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff01320a510>: Faileonnection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f87afa938d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f87afa93450>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f87afa93590>d to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff01320a910>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff01320ab90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connecti: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f87afa938d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f87afa93950>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnectinit Success None
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20ec68990>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20f328d90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20f328e90>: Faileinit Success None
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbee0143a90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede1c2110>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede1fad90>: Failed to establish a new cd to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20f328d90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20f328d50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connectionnection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede1c2110>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede1fae90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede1c2110>on.HTTPConnection object at 0x7fe20f328e50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20f328d90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20f3280d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_searc: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede1fad50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede1c2110>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede1fad90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede1c2110>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 102, in <module>
+    for t in r.json()['hits']['hits']:
+KeyError: 'hits'
+
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947721671120046,"event-id":946017710160041,"event-name":"12:20 Wexford","market-id":946017711870041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017712620041,"runner-name":"10 The Hunter Hoe","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T12:17:18.542Z","status":"matched","in-play":false,"matched-bets":[{"id":947721671130146,"offer-id":947721671120046,"odds":14.00000,"odds-type":"DECIMAL","decimal-odds":14.00000,"stake":0.12,"potential-liability":1.56000,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T12:17:18.543Z"}]}]}
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947730606060048,"event-id":946013792960041,"event-name":"12:35 Galway","market-id":946013794950041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946013795460041,"runner-name":"11 Tintangle","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T12:32:12.036Z","status":"matched","in-play":false,"matched-bets":[{"id":947730606060248,"offer-id":947730606060048,"odds":5.80000,"odds-type":"DECIMAL","decimal-odds":5.80000,"stake":0.12,"potential-liability":0.57600,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T12:32:12.036Z"}]}]}
+New Race.......................
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947739638590046,"event-id":946017718240041,"event-name":"12:50 Wexford","market-id":946017719160041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017719400141,"runner-name":"6 Fiveaftermidnight","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T12:47:15.289Z","status":"matched","in-play":false,"matched-bets":[{"id":947739638600346,"offer-id":947739638590046,"odds":5.70000,"odds-type":"DECIMAL","decimal-odds":5.70000,"stake":0.12,"potential-liability":0.56400,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T12:47:15.290Z"}]}]}
+New Race.......................
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947748594610048,"event-id":946013812260042,"event-name":"13:05 Galway","market-id":946013813460042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946013813690042,"runner-name":"5 Dorans River","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T13:02:10.891Z","status":"matched","in-play":false,"matched-bets":[{"id":947748594620148,"offer-id":947748594610048,"odds":6.40000,"odds-type":"DECIMAL","decimal-odds":6.40000,"stake":0.12,"potential-liability":0.64800,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T13:02:10.892Z"}]}]}
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947754649960047,"event-id":945939796670041,"event-name":"13:15 Aintree","market-id":945939799380041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945939799820041,"runner-name":"9 The Hollow Ginge","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T13:12:16.426Z","status":"matched","in-play":false,"matched-bets":[{"id":947754649960247,"offer-id":947754649960047,"odds":12.00000,"odds-type":"DECIMAL","decimal-odds":12.00000,"stake":0.12,"potential-liability":1.32000,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T13:12:16.426Z"}]}]}
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947760603620047,"event-id":946017724230041,"event-name":"13:25 Wexford","market-id":946017725280041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017725510141,"runner-name":"2 Reaver","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T13:22:11.792Z","status":"matched","in-play":false,"matched-bets":[{"id":947760603620247,"offer-id":947760603620047,"odds":7.60000,"odds-type":"DECIMAL","decimal-odds":7.60000,"stake":0.12,"potential-liability":0.79200,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T13:22:11.792Z"}]}]}
+New Race.......................
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type"h (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20f328f10>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20f328e10>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20f328d50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 153, in <module>
+    for t in r.json()['hits']['hits']:
+KeyError: 'hits'
+
+starting loop....
+starting loop....
+starting loop....
+starting loop....
+starting loop....
+starting loop....
+starting loop....
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line:"back-lay","odds-type":"DECIMAL","offers":[{"id":947769612570046,"event-id":946013821170041,"event-name":"13:40 Galway","market-id":946013822350041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946013822730041,"runner-name":"8 Nobody Home","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T13:37:12.687Z","status":"matched","in-play":false,"matched-bets":[{"id":947769612570246,"offer-id":947769612570046,"odds":9.00000,"odds-type":"DECIMAL","decimal-odds":9.00000,"stake":0.12,"potential-liability":0.96000,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T13:37:12.687Z"}]}]}
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede01cf50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede6ebb50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20e20e990>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20e20eb90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20ec4e350>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/p return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede6ebbd0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede6ebb50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede6eb7d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requestsython2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20e20e210>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20e20ef50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20e20e210>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede6eb210>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede6ebb50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbede6eb850>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/pyt)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20d8c4f50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20e20e590>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe20e20e210>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+slave_worker_loop2 Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 121, in slave_worker
+    cur=commentary_check(race_id)
+  File "text_commentry_model.py", line 89, in commentary_check
+    r=requests.get("http://F11BE7880B13463DB3C36772A6FDF8AF:1D2351E160B41BE95E0C3B957FBA2FD5A4F3C09BF020CC5D12CBD07A9ADCB766@paracing.cloudapp.net/api/v1/race/"+str(race_id)+"/commentary?lang=en-GB")
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=methinit Success None
+
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947784398870047,"event-id":946017730290042,"event-name":"14:00 Wexford","market-id":946017732550042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017733290042,"runner-name":"6 Walkers Point","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T14:01:51.317Z","status":"matched","in-play":true,"matched-bets":[{"id":947784398870247,"offer-id":947784398870047,"odds":28.00000,"odds-type":"DECIMAL","decimal-odds":28.00000,"stake":0.11,"potential-liability":2.97000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T14:01:51.317Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947790090550048,"event-id":945940577650042,"event-name":"14:10 Wincanton","market-id":945940578470042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945940578560042,"runner-name":"2 Red Hanrahan","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T14:11:20.485Z","status":"matched","in-play":true,"matched-bets":[{"id":947790090550248,"offer-id":947790090550048,"odds":6.60000,"odds-type":"DECIMAL","decimal-odds":6.60000,"stake":0.11,"potential-liability":0.61600,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T14:11:20.485Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947793952710046,"event-id":946013827760042,"event-name":"14:15 Galway","market-id":946013829790042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946013829830042,"runner-name":"1 Danali","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T14:17:46.701Z","status":"matched","in-play":true,"matched-bets":[{"id":947793952710246,"offer-id":947793952710046,"odds":18.00000,"odds-type":"DECIMAL","decimal-odds":18.00000,"stake":0.11,"potential-liability":1.87000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T14:17:46.701Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947801053370048,"event-id":945939810270041,"event-name":"14:25 Aintree","market-id":945939812010041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945939812630041,"runner-name":"7 Cool Sky","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T14:29:36.767Z","status":"matched","in-play":true,"matched-bets":[{"id":947801053370248,"offer-id":947801053370048,"odds":46.00000,"odds-type":"DECIMAL","decimal-odds":46.00000,"stake":0.11,"potential-liability":4.95000,"commission":0.00165,init Success None
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947781592070047,"event-id":946017730290042,"event-name":"14:00 Wexford","market-id":946017732550042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017733520042,"runner-name":"11 Wild Desire","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T13:57:10.637Z","status":"matched","in-play":false,"matched-bets":[{"id":947781592070247,"offer-id":947781592070047,"odds":10.50000,"odds-type":"DECIMAL","decimal-odds":10.50000,"stake":0.12,"potential-liability":1.14000,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T13:57:10.637Z"}]}]}
+New Race.......................
+New Race.......................
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947796560100048,"event-id":945939810270041,"event-name":"14:25 Aintree","market-id":945939812010041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945939812050041,"runner-name":"1 Paisley Park","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T14:22:07.440Z","status":"matched","in-play":false,"matched-bets":[{"id":947796560100248,"offer-id":947796560100048,"odds":5.70000,"odds-type":"DECIMAL","decimal-odds":5.70000,"stake":0.12,"potential-liability":0.56400,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T14:22:07.440Z"}]}]}
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947802635020048,"event-id":946017781780042,"event-name":"14:35 Wexford","market-id":946017784290042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017784610042,"runner-name":"4 Silver Planeur","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T14:32:14.932Z","status":"matched","in-play":false,"matched-bets":[{"id":947802635030148,"offer-id":947802635020048,"odds":5.60000,"odds-type":"DECIMAL","decimal-odds":5.60000,"stake":0.12,"potential-liability":0.55200,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T14:32:14.933Z"}]}]}
+New Race.......................
+New Race.......................
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947817556160046,"event-id":945939816950042,"event-name":"15:00 Aintree","market-id":945939818150042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945939818860042,"runner-name":"9 Value At Risk","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T14:57:07.046Z","status":"matched","in-play"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T14:29:36.767Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947805057380048,"event-id":946017781780042,"event-name":"14:35 Wexford","market-id":946017784290042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017784740042,"runner-name":"7 Bere Haven","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T14:36:17.168Z","status":"matched","in-play":true,"matched-bets":[{"id":947805057380248,"offer-id":947805057380048,"odds":13.00000,"odds-type":"DECIMAL","decimal-odds":13.00000,"stake":0.11,"potential-liability":1.32000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T14:36:17.168Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947810945290046,"event-id":945940580660041,"event-name":"14:45 Wincanton","market-id":945940581610041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945940582200041,"runner-name":"3 Mighty Leader","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T14:46:05.959Z","status":"matched","in-play":true,"matched-bets":[{"id":947810945290246,"offer-id":947810945290046,"odds":8.40000,"odds-type":"DECIMAL","decimal-odds":8.40000,"stake":0.11,"potential-liability":0.81400,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T14:46:05.959Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947814971070047,"event-id":946013845660041,"event-name":"14:50 Galway","market-id":946013846620041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946013846850041,"runner-name":"5 Vocarium","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.11,"potential-liability":5.39000,"remaining-potential-liability":5.39000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T14:52:48.537Z","status":"open","in-play":true}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947821985490046,"event-id":945939816950042,"event-name":"15:00 Aintree","market-id":945939818150042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945939818720042,"runner-name":"6 Templehills","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:04:29.979Z","status":"matched","in-play":true,"matched-bets":[{"id":947821985490246,"offer-id":947821985490046,"odds":14.00000,"odds-type":"DECIMAL","decimal-odds":14.00000,"stake":0.11,"potential-liability":1.43000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T15:04:29.979Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DEC":false,"matched-bets":[{"id":947817556160246,"offer-id":947817556160046,"odds":7.00000,"odds-type":"DECIMAL","decimal-odds":7.00000,"stake":0.12,"potential-liability":0.72000,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T14:57:07.046Z"}]}]}
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947823582200048,"event-id":946017790100041,"event-name":"15:10 Wexford","market-id":946017791680041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017791770041,"runner-name":"2 Celebrity Status","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:07:09.650Z","status":"matched","in-play":false,"matched-bets":[{"id":947823582210148,"offer-id":947823582200048,"odds":10.50000,"odds-type":"DECIMAL","decimal-odds":10.50000,"stake":0.12,"potential-liability":1.14000,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T15:07:09.651Z"}]}]}
+New Race.......................
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947832584640047,"event-id":946013850930042,"event-name":"15:25 Galway","market-id":946013853500042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946013854110042,"runner-name":"14 Suinda","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:22:09.894Z","status":"matched","in-play":false,"matched-bets":[{"id":947832584640247,"offer-id":947832584640047,"odds":4.40000,"odds-type":"DECIMAL","decimal-odds":4.40000,"stake":0.12,"potential-liability":0.40800,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T15:22:09.894Z"}]}]}
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947838615030046,"event-id":945939821860041,"event-name":"15:35 Aintree","market-id":945939823080041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945939823270041,"runner-name":"4 Polydora","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:32:12.933Z","status":"matched","in-play":false,"matched-bets":[{"id":947838615030246,"offer-id":947838615030046,"odds":5.30000,"odds-type":"DECIMAL","decimal-odds":5.30000,"stake":0.12,"potential-liability":0.51600,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T15:32:12.933Z"}]}]}
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947844625990046,"event-id":946017799210042,"event-name":"15:45 Wexford","market-id":946017801050042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017802160142,"runner-name":"9 Conduct Yourself","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","orIMAL","offers":[{"id":947826323080048,"event-id":946017790100041,"event-name":"15:10 Wexford","market-id":946017791680041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017792420041,"runner-name":"12 Sweetlight D'oroux","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:11:43.738Z","status":"matched","in-play":true,"matched-bets":[{"id":947826323080248,"offer-id":947826323080048,"odds":32.00000,"odds-type":"DECIMAL","decimal-odds":32.00000,"stake":0.11,"potential-liability":3.41000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T15:11:43.738Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947832133270046,"event-id":945940586720042,"event-name":"15:20 Wincanton","market-id":945940587420042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945940587870042,"runner-name":"5 Milldean Silva","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:21:24.757Z","status":"matched","in-play":true,"matched-bets":[{"id":947832133270246,"offer-id":947832133270046,"odds":30.00000,"odds-type":"DECIMAL","decimal-odds":30.00000,"stake":0.11,"potential-liability":3.19000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T15:21:24.757Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947834982930047,"event-id":946013850930042,"event-name":"15:25 Galway","market-id":946013853500042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946013854160042,"runner-name":"15 Odit","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:26:09.723Z","status":"matched","in-play":true,"matched-bets":[{"id":947834982930247,"offer-id":947834982930047,"odds":21.00000,"odds-type":"DECIMAL","decimal-odds":21.00000,"stake":0.11,"potential-liability":2.20000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T15:26:09.723Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947842195470046,"event-id":945939821860041,"event-name":"15:35 Aintree","market-id":945939823080041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945939823380041,"runner-name":"6 Molly The Dolly","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:38:10.977Z","status":"matched","in-play":true,"matched-bets":[{"id":947842195470246,"offer-id":947842195470046,"odds":11.00000,"odds-type":"DECIMAL","decimal-odds":11.00000,"stake":0.11,"potential-liability":1.10000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T15:38:10.977Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947847010760046,"event-id":946017799210042,"event-name":"15:45 Wexford","market-id":946017801050042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017801300042,"runner-name":"2 Killiney Court","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:46:12.506Z","status":"matched","in-play":true,"matched-bets":[{"id":947847010760246,"offer-id":947847010760046,"odds":22.00000,"odds-type":"DECIMAL","decimal-odds":22.00000,"stake":0.11,"potential-liability":2.31000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T15:46:12.506Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947853021610047,"event-id":945940590300041,"event-name":"15:55 Wincanton","market-id":945940591210041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945940591540041,"runner-name":"6 Powerful Society","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:56:13.591Z","status":"matched","in-play":true,"matched-bets":[{"id":947853021610247,"offer-id":947853021610047,"odds":8.60000,"odds-type":"DECIMAL","decimal-odds":8.60000,"stake":0.11,"potential-liability":0.83600,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T15:56:13.591Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947856869690048,"event-id":946013877730041,"event-name":"16:00 Galway","market-id":946013878570041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946013878660041,"runner-name":"2 Sweet Home Chicago","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T16:02:38.399Z","status":"matched","in-play":true,"matched-bets":[{"id":947856869690248,"offer-id":947856869690048,"odds":16.50000,"odds-type":"DECIMAL","decimal-odds":16.50000,"stake":0.11,"potential-liability":1.70500,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-28T16:02:38.399Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947862661050247,"event-id":945939827080042,"event-name":"16:10 Aintree","market-id":945939828920042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":945939828960042,"runner-name":"1 Sweet Adare","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T16:12:17.535Z","status":"matched","in-play":true,"matched-bets":[{"id":947862661050447,"offer-id":947862661050247,"odds":21.00000,"odds-type":"DECIMAL","decimal-odds":21.00000,"stake":0.11,"potential-liability":2.20000,"commission":0.00165,"in-play":true,"currenciginator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:42:14.029Z","status":"matched","in-play":false,"matched-bets":[{"id":947844626000146,"offer-id":947844625990046,"odds":7.40000,"odds-type":"DECIMAL","decimal-odds":7.40000,"stake":0.12,"potential-liability":0.76800,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T15:42:14.030Z"}]}]}
+New Race.......................
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947853582640048,"event-id":946013877730041,"event-name":"16:00 Galway","market-id":946013878570041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946013878740041,"runner-name":"4 Val De Ferbet","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T15:57:09.694Z","status":"matched","in-play":false,"matched-bets":[{"id":947853582650148,"offer-id":947853582640048,"odds":13.50000,"odds-type":"DECIMAL","decimal-odds":13.50000,"stake":0.12,"potential-liability":1.50000,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T15:57:09.695Z"}]}]}
+New Race.......................
+New Race.......................
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947865604710046,"event-id":946017810490041,"event-name":"16:20 Wexford","market-id":946017811690041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946017811980041,"runner-name":"7 Positive Outlook","exchange-type":"back-lay","side":"lay","odds":15.00000,"odds-type":"DECIMAL","decimal-odds":15.00000,"stake":0.12,"remaining":0.00,"potential-liability":1.68000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T16:17:11.901Z","status":"matched","in-play":false,"matched-bets":[{"id":947865604720146,"offer-id":947865604710046,"odds":8.60000,"odds-type":"DECIMAL","decimal-odds":8.60000,"stake":0.12,"potential-liability":0.91200,"commission":0.00180,"in-play":false,"currency":"USD","status":"open","created-at":"2018-10-28T16:17:11.902Z"}]}]}
+New Race.......................
+New Race.......................
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f931d7b4810>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fy":"USD","status":"open","created-at":"2018-10-28T16:12:17.535Z"}]}]}
+starting loop....
+starting loop....
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":947877751480048,"event-id":946013882580042,"event-name":"16:35 Galway","market-id":946013885060042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946013885600042,"runner-name":"12 Miss Aloud","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.11,"potential-liability":5.39000,"remaining-potential-liability":5.39000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-28T16:37:26.578Z","status":"open","in-play":true}]}
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6de9dc410>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6df211e50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohaail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f931f21d310>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f931f21d1d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f931f21d310>: Failed to establish a new connection: [Errno 111] Cn_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6df211c50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6df211e50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6df211fd0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get'onnection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f931f21de90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f931f21db10>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+loop Fail Traceback (most recent call last):
+  File "rp_tips_model_live.py", line 101, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f931f21d310>: Failed to establish a , url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6df211990>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6df211e50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6df211110>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requestsinit Success None
+
+starting loop....
+exiting loop....
+starting loop....
+starting loop....
+exiting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948588021010047,"event-id":947687981140041,"event-name":"12:20 Wexford","market-id":947687983320041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947687983470041,"runner-name":"3 Rock On Dandy","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.11,"potential-liability":5.39000,"remaining-potential-liability":5.39000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T12:21:13.531Z","status":"open","in-play":true}]}
+starting loop....
+starting loop....
+exiting loop....
+starting loop....
+starting loop....
+exiting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948606014610047,"event-id":947687988810042,"event-name":"12:50 Wexford","market-id":947687990620042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947687990870142,"runner-name":"6 Knock On Steel","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T12:51:12.891Z","status":"matched","in-play":true,"matched-bets":[{"id":948606014610247,"offer-id":948606014610047,"odds":17.50000,"odds-type":"DECIMAL","decimal-odds":17.50000,"stake":0.11,"potential-liability":1.81500,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T12:51:12.891Z"}]}]}
+starting loop....
+starting loop....
+starting loop....
+starting loop....
+starting loop....
+exiting loop....
+starting loop....
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948636149760047,"event-id":946819037980041,"event-name":"13:40 Redcar","market-id":946819039860041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946819040280041,"runner-name":"9 Sunhill Lad","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T13:41:26.406Z","status":"matched","in-play":true,"matched-bets":[{"id":948636149760247,"offer-id":948636149760047,"odds":19.00000,"odds-type":"DECIMAL","decimal-odds":19.00000,"stake":0.11,"potential-liability":1.98000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T13:41:26.406Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948639371840047,"event-id":947687867770042,"event-name":"13:45 Galway","market-id":947687869020042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947687869520042,"runner-name":"7 Vocal Music","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T13:46:48.614Z","status":"matched","in-play":true,"matched-bets":[{"id":948639371840247,"offer-id":948639371840047,"odds":7.40000,"odds-type":"DECIMAL","decimal-odds":7.40000,"stake":0.11,"potential-liability":0.70400,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T13:46:48.614Z"}]}]}
+starting loop....
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948648246160048,"event-id":947688004650042,"event-name":"14:00 Wexford","market-id":947688006250042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947688006790042,"runner-name":"11 Sizing Julie","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T14:01:36.046Z","status":"matched","in-play":true,"matched-bets":[{"id":948648246160248,"offer-id":948648246160048,"odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"potential-liability":5.39000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T14:01:36.046Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948651814170047,"event-id":947682547080041,"event-name":"14:05 Ayr","market-id":947682548120041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947682548330041,"runner-name":"4 The Road Home","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T14:07:32.847Z","status":"matched","in-play":true,"matched-bets":[{"id":948651814170247,"offer-id":948651814170047,"odds":14.00000,"odds-type":"DECIMAL","decimal-odds":14.00000,"stake":0.11,"potential-liability":1.43000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T14:07:32.847Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948657109490048,"event-id":946819044480042,"event-name":"14:15 Redcar","market-id":946819045410042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946819045500042,"runner-name":"2 Wax And Wane","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T14:16:22.379Z","status":"matched","in-play":true,"matched-bets":[{"id":948657109500048,"offer-id":948657109490048,"odds":13.50000,"odds-type":"DECIMAL","decimal-odds":13.50000,"stake":0.11,"potential-liability":1.37500,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T14:16:22.379Z"}]}]}
+starting loop....
+exiting loop....
+starting loop....
+starting loop....
+starting loop....
+starting loop....
+starting loop....
+exiting loop....
+exiting loop....
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948686847110047,"event-id":946817623590042,"event-name":"15:05 Leicester","market-id":946817624730042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946817625410042,"runner-name":"8 Dragons Tail","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD"Next Race in  1 mins
+https://www.racinguk.com/racecards/redcar/196959-british-stallion-studs-ebf-novice-stakes-5 Added New Race.................
+https://www.racinguk.com/racecards/leicester/196966-british-stallion-studs-ebf-novice-stakes-4 Added New Race.................
+https://www.racinguk.com/racecards/wexford-ireland/196973-nick-o-donnell-memorial-maiden-hurdle Added New Race.................
+https://www.racinguk.com/racecards/redcar/196960-best-flat-races-live-on-racing-uk-nursery-handicap-6 Added New Race.................
+https://www.racinguk.com/racecards/galway-ireland/196952-irish-stallion-farms-european-breeders-fund-fillies-maiden Added New Race.................
+https://www.racinguk.com/racecards/leicester/196967-haymarket-nursery-handicap-5-d-i Added New Race.................
+https://www.racinguk.com/racecards/wexford-ireland/196974-iris-first-for-racing-rated-novice-hurdle Added New Race.................
+https://www.racinguk.com/racecards/ayr/196939-western-house-mares-maiden-hurdle-5 Added New Race.................
+https://www.racinguk.com/racecards/redcar/196961-ebf-double-trigger-novice-stakes-5 Added New Race.................
+https://www.racinguk.com/racecards/galway-ireland/196953-www-swordsecurity-com-nursery-handicap Added New Race.................
+https://www.racinguk.com/racecards/leicester/196968-haymarket-nursery-handicap-5-d-ii Added New Race.................
+https://www.racinguk.com/racecards/wexford-ireland/196975-kehoe-farming-opportunity-handicap-hurdle Added New Race.................
+https://www.racinguk.com/racecards/ayr/196940-ebf-stallions-weddings-at-western-house-national-hunt-novices-hurdle-4 Added New Race.................
+https://www.racinguk.com/racecards/redcar/196962-racing-uk-s-biggest-ever-flat-season-selling-stakes-6 Added New Race.................
+https://www.racinguk.com/racecards/galway-ireland/196954-kone-handicap Added New Race.................
+https://www.racinguk.com/racecards/leicester/196969-sir-gordon-richards-handicap-2 Added New Race.................
+https://www.racinguk.com/racecards/wexford-ireland/196976-volkswagen-commercial-vehicles-maiden-hurdle Added New Race.................
+https://www.racinguk.com/racecards/ayr/196941-christmas-tribute-nights-ayr-racecourse-chase-novices-limited-handicap-4 Added New Race.................
+https://www.racinguk.com/racecards/redcar/196963-market-cross-jewellers-handicap-3 Added New Race.................
+https://www.racinguk.com/racecards/galway-ireland/196955-corrib-food-products-maiden Added New Race.................
+https://www.racinguk.com/racecards/leicester/196970-gumley-claiming-stakes-5 Added New Race.................
+https://www.racinguk.com/racecards/wexford-ireland/196977-wexford-vintners-mares-handicap-hurdle Added New Race.................
+https://www.racinguk.com/racecards/ayr/196942-book-2nd-january-raceday-and-celebrate-handicap-chase-qualifier-4 Added New Race.................
+https://www.racinguk.com/racecards/redcar/196964-watch-racing-uk-in-hd-maiden-stakes-5 Added New Race.................
+https://www.racinguk.com/racecards/galway-ireland/196956-barna-recycling-handicap Added New Race.................
+https://www.racinguk.com/racecards/leicester/196971-hoby-handicap-2 Added New Race.................
+https://www.racinguk.com/racecards/wexford-ireland/196978-m-w-hickey-memorial-chase-listed Added New Race.................
+https://www.racinguk.com/racecards/ayr/196943-book-coral-scottish-grand-national-tickets-conditional-jockeys-training-handicap-hurdle-5 Added New Race.................
+https://www.racinguk.com/racecards/redcar/196965-racing-uk-profits-returned-to-racing-apprentice-handicap-6-d-i Added New Race.................
+https://www.racinguk.com/racecards/galway-ireland/196957-john-mulholland-bookmakers-handicap Added New Race.................
+https://www.racinguk.com/racecards/leicester/196972-cossington-ebf-fillies-novice-median-auction-stakes-4 Added New Race.................
+https://www.racinguk.com/racecards/wexford-ireland/196979-iris-first-for-racing-footage-in-ireland-beginners-chase Added New,"created-at":"2018-10-29T15:05:56.141Z","status":"matched","in-play":true,"matched-bets":[{"id":948686847110247,"offer-id":948686847110047,"odds":21.00000,"odds-type":"DECIMAL","decimal-odds":21.00000,"stake":0.11,"potential-liability":2.20000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T15:05:56.141Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948690076270046,"event-id":947688017960042,"event-name":"15:10 Wexford","market-id":947688018540042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947688018680042,"runner-name":"3 Cap D'Aubois","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T15:11:19.057Z","status":"matched","in-play":true,"matched-bets":[{"id":948690076270246,"offer-id":948690076270046,"odds":11.00000,"odds-type":"DECIMAL","decimal-odds":11.00000,"stake":0.11,"potential-liability":1.10000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T15:11:19.057Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948694545460048,"event-id":947682555970041,"event-name":"15:15 Ayr","market-id":947682558030041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947682558130041,"runner-name":"2 Storm Nelson","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T15:18:45.976Z","status":"matched","in-play":true,"matched-bets":[{"id":948694545470148,"offer-id":948694545460048,"odds":16.50000,"odds-type":"DECIMAL","decimal-odds":16.50000,"stake":0.11,"potential-liability":1.70500,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T15:18:45.977Z"}]}]}
+starting loop....
+starting loop....
+exiting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"event-id":947687896960041,"event-name":"15:30 Galway","market-id":947687899200041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947687899570041,"runner-name":"8 Endless Tangent","exchange-type":"back-lay","side":"lay","odds":50.0,"odds-type":"DECIMAL","stake":0.11,"currency":"USD","status":"failed","errors":[{"field":"runner","messages":["Runner 8 Endless Tangent is suspended. It must be OPEN."]},{"field":"market","messages":["Market WIN is suspended. It must be OPEN."]},{"field":"event","messages":["Event 15:30 Galway is suspended. It must be OPEN."]}]}]}
+starting loop....
+exiting loop....
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948711097180047,"event-id":947688020760041,"event-name":"15:45 Wexford","market-id":947688022370041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947688022860141,"runner-name":"10 Timi Roli","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T15:46:21.148Z","status":"matched","in-play":true,"matched-bets":[{"id":948711097180247,"offer-id":948711097180047,"odds":6.20000,"odds-type":"DECIMAL","decimal-odds":6.20000,"stake":0.11,"potential-liability":0.57200,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T15:46:21.148Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948714771030048,"event-id":947682561560042,"event-name":"15:50 Ayr","market-id":947682562630042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947682562760042,"runner-name":"3 Slainte Mhor","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T15:52:28.533Z","status":"matched","in-play":true,"matched-bets":[{"id":948714771030248,"offer-id":948714771030048,"odds":8.00000,"odds-type":"DECIMAL","decimal-odds":8.00000,"stake":0.11,"potential-liability":0.77000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T15:52:28.533Z"}]}]}
+starting loop....
+starting loop....
+exiting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948723252780046,"event-id":947687906770042,"event-name":"16:05 Galway","market-id":947687909520042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947687909840042,"runner-name":"7 Sunnyhill Lad","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T16:06:36.708Z","status":"matched","in-play":true,"matched-bets":[{"id":948723252780246,"offer-id":948723252780046,"odds":9.40000,"odds-type":"DECIMAL","decimal-odds":9.40000,"stake":0.11,"potential-liability":0.92400,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T16:06:36.708Z"}]}]}
+starting loop....
+starting loop....
+exiting loop....
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948740892450046,"event-id":947687914730041,"event-name":"16:35 Galway","market-id":947687917440041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":947687917950041,"runner-name":"8 All The Mollies","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T16:36:00.675Z","status":"matched","in-play":true,"matched-bets":[{"id":948740892450246,"offer-id":948740892450046,"odds":19.00000,"odds-type":"DECIMAL","decimal-odds":19.00000,"stake":0.11,"potential-liability":1.98000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T16:36:00.675Z"}]}]}
+starting loop....
+starting loop....
+exiting loop....
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948783411310047,"event-id":946814908440042,"event-name":"17:45 Chelmsford","market-id":946814909720042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946814910730042,"runner-name":"10 Maknifico","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T17:46:52.561Z","status":"matched","in-play":true,"matched-bets":[{"id":948783411310247,"offer-id":948783411310047,"odds":32.00000,"odds-type":"DECIMAL","decimal-odds":32.00000,"stake":0.11,"potential-liability":3.41000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T17:46:52.561Z"}]}]}
+starting loop....
+exiting loop....
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948821107490048,"event-id":946814920050041,"event-name":"18:45 Chelmsford","market-id":946814921740041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946814922240041,"runner-name":"11 Sheila Rose","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T18:49:42.179Z","status":"matched","in-play":true,"matched-bets":[{"id":948821107490248,"offer-id":948821107490048,"odds":18.50000,"odds-type":"DECIMAL","decimal-odds":18.50000,"stake":0.11,"potential-liability":1.92500,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T18:49:42.179Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948840028070048,"event-id":946814925650042,"event-name":"19:15 Chelmsford","market-id":946814927890042,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946814929120142,"runner-name":"9 Ainne","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T19:21:14.237Z","status":"matched","in-play":true,"matched-bets":[{"id":948840028070248,"offer-id":948840028070048,"odds":14.00000,"odds-type":"DECIMAL","decimal-odds":14.00000,"stake":0.11,"potential-liability":1.43000,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T19:21:14.237Z"}]}]}
+starting loop....
+bet_placed success {"language":"en","currency":"USD","exchange-type":"back-lay","odds-type":"DECIMAL","offers":[{"id":948857068620046,"event-id":946814933480041,"event-name":"19:45 Chelmsford","market-id":946814935220041,"market-name":"WIN","market-type":"outright_ded_fact","runner-id":946814935480141,"runner-name":"6 Sukhovey","exchange-type":"back-lay","side":"lay","odds":50.00000,"odds-type":"DECIMAL","decimal-odds":50.00000,"stake":0.11,"remaining":0.00,"potential-liability":5.39000,"remaining-potential-liability":0.00000,"commission-type":"NET_WIN","originator-commission-rate":0.015,"acceptor-commission-rate":0.015,"commission-reserve":0,"currency":"USD","created-at":"2018-10-29T19:49:38.292Z","status":"matched","in-play":true,"matched-bets":[{"id":948857068620246,"offer-id":948857068620046,"odds":10.50000,"odds-type":"DECIMAL","decimal-odds":10.50000,"stake":0.11,"potential-liability":1.04500,"commission":0.00165,"in-play":true,"currency":"USD","status":"open","created-at":"2018-10-29T19:49:38.292Z"}]}]}
+starting loop....
+exiting loop....
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80934eddd0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8092fe00d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8092fe0310>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8092fe00d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8092fe0e90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='localhost', port=9200): Max retries exceeded with url: /uk_hr_all_build12/_doc/_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8092fe0a50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+main_loop Fail Traceback (most recent call last):
+  File "text_commentry_model.py", line 152, in <module>
+    r=requests.get("http://localhost:9200/"+str(model_name)+"/_doc/_search",json={"from" : 0, "size" : 10000,"query": {"bool": {"must_not": {"exists": {"field": "2model2_pred"}}}}})
+  File "/home/mohan_nehil_gmail_com/.local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    rNext Race in  1 mins
+https://www.racinguk.com/racecards/wetherby/197728-enjoy-the-jumps-on-racinguk-handicap-chase-qualifier-4 Added New Race.................
+https://www.racinguk.com/racecards/ayr/197714-laphroaig-mares-maiden-hurdle-5 Added New Race.................
+https://www.racinguk.com/racecards/ascot/197707-gl-events-uk-novices-hurdle-3 Added New Race.................
+https://www.racinguk.com/racecards/down-royal-ireland/192327-value-cabs-3-y-o-hurdle Added New Race.................
+https://www.racinguk.com/racecards/newmarket-july/197722-prestige-classics-ebf-fillies-novice-stakes-4-d-ii Added New Race.................
+https://www.racinguk.com/racecards/wetherby/197729-bet365-novices-hurdle-3 Added New Race.................
+https://www.racinguk.com/racecards/ayr/197715-gordon-s-pink-gin-handicap-chase-qualifier-4 Added New Race.................
+https://www.racinguk.com/racecards/ascot/197708-gardiner-theobald-novices-handicap-hurdle-4 Added New Race.................
+https://www.racinguk.com/racecards/down-royal-ireland/197822-tayto-group-maiden-hurdle Added New Race.................
+https://www.racinguk.com/racecards/newmarket-july/197723-tuckergardner-lettings-nursery-handicap-4 Added New Race.................
+https://www.racinguk.com/racecards/wetherby/197730-danny-megson-40th-birthday-celebration-handicap-chase-3 Added New Race.................
+https://www.racinguk.com/racecards/ayr/197716-johnnie-walker-handicap-chase-3 Added New Race.................
+https://www.racinguk.com/racecards/ascot/197709-ascot-underwriting-chase-novices-limited-handicap-3 Added New Race.................
+https://www.racinguk.com/racecards/down-royal-ireland/197823-billecart-salmon-handicap-hurdle-grade-b Added New Race.................
+https://www.racinguk.com/racecards/newmarket-july/197724-quy-mill-hotel-handicap-4 Added New Race.................
+https://www.racinguk.com/racecards/wetherby/197731-olbg-com-mares-hurdle-listed-1 Added New Race.................
+https://www.racinguk.com/racecards/ayr/197717-schweppes-1783-handicap-hurdle-3 Added New Race.................
+https://www.racinguk.com/racecards/ascot/197710-byrne-group-handicap-chase-listed-1 Added New Race.................
+https://www.racinguk.com/racecards/down-royal-ireland/197824-jnwine-com-champion-chase-grade-1 Added New Race.................
+https://www.racinguk.com/racecards/newmarket-july/197725-british-stallion-studs-ebf-montrose-fillies-stakes-listed-1 Added New Race.................
+https://www.racinguk.com/racecards/wetherby/197732-bet365-charlie-hall-chase-grade-2-1 Added New Race.................
+https://www.racinguk.com/racecards/ayr/197718-magners-handicap-chase-3 Added New Race.................
+https://www.racinguk.com/racecards/ascot/197711-bet-with-ascot-handicap-hurdle-listed-1 Added New Race.................
+https://www.racinguk.com/racecards/down-royal-ireland/197825-mycarneedsa-com-chase-grade-2 Added New Race.................
+https://www.racinguk.com/racecards/newmarket-july/197726-weatherbys-general-stud-book-james-seymour-stakes-listed-1 Added New Race.................
+https://www.racinguk.com/racecards/wetherby/197733-bet365-hurdle-west-yorkshire-grade-2-1 Added New Race.................
+https://www.racinguk.com/racecards/ayr/197719-tennent-s-cup-scottish-champion-hurdle-trial-handicap-hurdle-2 Added New Race.................
+https://www.racinguk.com/racecards/newcastle/197743-betway-supporting-responsible-gambling-week-novice-stakes-5 Added New Race.................
+https://www.racinguk.com/racecards/ascot/197712-sodexo-gold-cup-handicap-chase-grade-3-1 Added New Race.................
+https://www.racinguk.com/racecards/down-royal-ireland/197826-rainbow-communications-handicap-chase Added New Race.................
+https://www.racinguk.com/racecards/newmarket-july/197727-price-bailey-ben-marshall-stakes-listed-1 Added New Race.................
+https://www.racinguk.com/racecards/wetherby/197734-bet365-handicap-hurdle-3 Added New Race.................
+https://www.racinguk.com/racecards/ayr/197720-coke-zero-maiden-national-hunt-flat-conditional-jock
